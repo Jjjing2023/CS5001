@@ -12,7 +12,7 @@ Astrology App is a web application built using Django that takes user input of t
 ## Installation
 1. Clone the repository: `git clone https://github.com/your-username/astrology-app.git`
 2. Create a virtual environment: `python -m venv env`
-3. Activate the virtual environment: `source env/bin/activate` (for Linux/Mac) or `.\\env\\Scripts\\activate` (for Windows)
+3. Activate the virtual environment: `source env/bin/activate`. 
 4. Install the required packages: `pip install -r requirements.txt`
 5. Run migrations: `python manage.py migrate`
 6. Start the server: `python manage.py runserver`
