@@ -1,9 +1,0 @@
-{% for sign in sign_objects %} {% if sign.name == astro_type %}
-{{sign.description }}
-<div class="col-md-3">
-  <div class="card">
-    <img height="300px" src="{{ sign.url }}" class="card-img-top" />
-    <div class="card-body"></div>
-  </div>
-</div>
-{% endif %} {% endfor %} {{ astro_type }}
